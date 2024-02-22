@@ -26,7 +26,7 @@ class ShoppingCartScreen extends ConsumerWidget {
     final state = ref.watch(shoppingCartScreenControllerProvider);
     return Scaffold(
       appBar: AppBar(
-        title: Text('Shopping Cart'.hardcoded),
+        title: Text('Shopping Cart22'.hardcoded),
       ),
       body: Consumer(
         builder: (context, ref, child) {
